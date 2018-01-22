@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1359340305 source:c:\users\griffin laptop\desktop\todd's stuff\my programs\random name generator\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<stdio.h>
+

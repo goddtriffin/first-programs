@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1352659135 source:c:\users\griffin laptop\desktop\todd's stuff\my programs\complete\guessing game\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<stdio.h>
+

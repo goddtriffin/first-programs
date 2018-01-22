@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1360286672 source:c:\users\griffin laptop\desktop\todd's stuff\my programs\rpggame\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<stdio.h>
+	<conio.h>
+	<fstream>
+
+1368673375 source:c:\users\griffin laptop\desktop\todd's stuff\programming\my programs\c++\rpggame\main.cpp
+	<iostream>
+	<cstdlib>
+	<ctime>
+	<stdio.h>
+	<conio.h>
+	<fstream>
+
