@@ -1,0 +1,190 @@
+/*===================================================
+					global.css - beginning
+===================================================*/
+/*links*/
+a { 
+	color: rgb(130,130,130);
+	text-decoration: none;
+}
+a:link {}
+a:visited {}
+a:hover { text-decoration: underline; }
+a:active {}
+/*links*/
+
+.banner {
+  background-color: rgb(200,200,200);
+  width: auto;
+  height: 50px;
+  border: 2px solid rgb(140,140,140);
+  
+  padding: 0px;
+  margin: 0px;
+}
+
+.banner a img {
+  width: 35px;
+  height: 35px;
+  
+  padding: 0px;
+  margin: 0px;
+}
+
+.banner .item {
+  padding: 0px;
+  margin: 0px;
+  
+  margin-left: 3%;
+  margin-right: 3%;
+}
+
+body {
+	background: rgb(220,220,220);
+	background: radial-gradient(circle, rgb(255,255,255), rgb(150,150,150));
+	/*background: repeating-radial-gradient(circle, #eee, #ccc 225px);*/
+	color: rgb(130,130,130);
+	font-size: 100%;
+	text-align: center;
+}
+
+html {
+	min-height: 100%;
+}
+
+/*===================================================
+					index.html
+===================================================*/
+#index a {
+    margin-left: 30px !important;
+    margin-right: 30px !important;
+  
+    overflow: visible !important;
+  
+    font-size: 1.5em;
+}
+
+#index header {
+    font-size: 6em;
+    margin: 0%;
+}
+
+#index main {
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+#index nav {
+    margin: 1%;
+}
+
+#index p { 
+    font-size: 2em;
+    margin: 0%;
+}
+
+/*===================================================
+					about.html
+===================================================*/
+#about .box {
+	background: rgb(220,220,220);
+	
+    width: 750px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2%;
+    padding: 2%;
+	
+	
+  
+    border: 2px solid rgb(140,140,140);
+}
+
+#about .box h2 {
+    text-decoration: underline;
+}
+
+#about .box p {
+    text-align: left;
+}
+
+/*===================================================
+					resume.html
+===================================================*/
+#resume [alt="Resume"]{
+	display: block;
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+  
+  border: 2px solid rgb(140,140,140);
+
+	margin-bottom: 2.5%;
+}
+
+/*===================================================
+					portfolio.html
+===================================================*/
+#portfolio h3 {
+	margin-bottom: 5%;
+}
+
+/*===================================================
+					test.html
+===================================================*/
+
+
+/*===================================================
+					eirene.html
+===================================================*/
+#eirene @font-face {
+    font-family: Pocket;
+    src: url(fonts/Pocket.ttf);
+}
+
+#eirene body {
+	background-color: rgb(180,228,240);
+	color: rgb(10,228,240);
+	
+  text-align: center;
+  
+	font-family: Pocket;
+	font-size: 2em;
+}
+
+#eirene h1 {
+	text-shadow: -4px 4px #84898A;
+}
+
+#eirene p {
+	text-shadow: -2px 2px #84898A;
+}
+
+/*===================================================
+					global.css - ending
+===================================================*/
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.flexRow {
+  flex-flow: row nowrap;
+}
+
+.flexColumn {
+  flex-flow: column nowrap;
+}
+
+.order1 { order: 1; }
+.order2 { order: 2; }
+.order3 { order: 3; }
+.order4 { order: 4; }
+.order5 { order: 5; }

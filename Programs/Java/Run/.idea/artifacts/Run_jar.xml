@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="Run:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Run_jar</output-path>
+    <root id="archive" name="Run.jar">
+      <element id="module-output" name="Run" />
+    </root>
+  </artifact>
+</component>

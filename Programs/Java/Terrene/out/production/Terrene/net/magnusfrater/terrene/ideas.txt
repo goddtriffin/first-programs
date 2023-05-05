@@ -1,0 +1,82 @@
+world
+-----
+random terrain generation
+    grass
+    dirt
+    shore
+    ocean
+    sand
+    mountain
+    trees
+movement slows depending on terrain type
+textures only
+lighting?
+    day/night cycle
+
+
+mobs
+----
+    player
+    ------
+    build
+    destroy
+    fight
+    tools
+    inventory
+    simple crafting
+    create faction
+    recruit npcs
+
+
+    enemies
+    -------
+    zombies (lol)
+
+
+    npc
+    ---
+    can be recruited into a faction (by player)
+    jobs
+        lumberjack
+        miner
+        fighter
+        farmer
+        construction
+        bodyguard
+
+
+    other info
+    ----------
+    A* pathfinding
+
+
+tools
+-----
+pickaxe
+    mountain
+    wall (stone)
+shovel
+    grass
+axe
+    tree
+    wall (wood)
+hoe
+    dirt
+
+
+resources
+---------
+wood
+    trees
+stone
+    mountains
+seeds
+    grass
+
+
+multiplayer
+-----------
+other humans
+fighting
+building
+chat system
